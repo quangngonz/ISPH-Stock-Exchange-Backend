@@ -142,7 +142,6 @@ class Sell(Resource):
     @api.doc(description='Sell stocks from a user\'s portfolio')
     @api.expect(buy_model)  # Reusing buy_model for simplicity
     def post(self):
-        # Use get_param to retrieve parameters from query params or JSON body
         username = get_param('username')
         house_name = get_param('house_name')
         quantity = get_param('quantity')
@@ -180,10 +179,9 @@ class EarnPoints(Resource):
     @api.doc(description='Update student points based on good performance')
     @api.expect(earn_points_model)
     def post(self):
-        data = request.get_json()
-        username = data.get('username')
-        points = data.get('points')
-        code = data.get('code')
+        username = get_param('username')
+        points = get_param('points')
+        code = get_param('code')
 
         if code != "secret":
             return {"message": "Invalid code"}, 401
@@ -230,8 +228,8 @@ class Houses(Resource):
 api.add_resource(Register, '/register')
 api.add_resource(Houses, '/houses')
 api.add_resource(Buy, '/buy')
-api.add_resource(Sell, '/sell')  # Add Sell resource
-api.add_resource(Portfolio, '/portfolio')  # Add Portfolio resource
+api.add_resource(Sell, '/sell')  
+api.add_resource(Portfolio, '/portfolio')
 api.add_resource(EarnPoints, '/earn-points')
 api.add_resource(Leaderboard, '/leaderboard')
 api.add_resource(PriceHistory, '/price-history')
