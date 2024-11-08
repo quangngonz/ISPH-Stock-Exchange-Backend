@@ -87,8 +87,23 @@ class Portfolio(Resource):
 
 class EarnPoints(Resource):
     @api.doc(description='Update student points based on good performance')
+    @api.param('username', 'The username of the student')
+    @api.param('points', 'The number of points to add')
+    @api.param('code', 'The secret code to verify the request')
     def post(self):
-        return {"message": "This endpoint is for demonstration only."}, 200
+        username = request.args.get('username')
+        points = request.args.get('points')
+        code = request.args.get('code')
+        if code != "secret":
+            return {"message": "Invalid code"}, 401
+        if username not in users:
+            return {"message": "User not found"}, 404
+        users[username]["points_balance"] += int(points)
+
+        with open('data/users.json', 'w') as f:
+            json.dump(users, f, indent=4)
+
+        return {"message": f"{points} points added to {username}"}, 200
 
 class Leaderboard(Resource):
     @api.doc(description='Display top students or houses based on stock performance and points')
