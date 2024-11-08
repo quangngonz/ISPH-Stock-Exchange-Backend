@@ -1,0 +1,182 @@
+{
+  "info": {
+    "name": "[Local] ISPH_Stock_Exchange",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Houses Data",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/all-houses",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["all-houses"]
+        }
+      }
+    },
+    {
+      "name": "Buy Stocks for House Te_Giac",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"lisa91\",\n  \"house_name\": \"Te_Giac\",\n  \"quantity\": 1\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/buy",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["buy"]
+        }
+      }
+    },
+    {
+      "name": "Earn Points for Student Joseph94",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"code\": \"secret\",\n  \"points\": 10,\n  \"username\": \"joseph94\"\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/earn-points",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["earn-points"]
+        }
+      }
+    },
+    {
+      "name": "Get name of all Houses",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/houses",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["houses"]
+        }
+      }
+    },
+    {
+      "name": "Get Leaderboard Data",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/leaderboard",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["leaderboard"]
+        }
+      }
+    },
+    {
+      "name": "Get Student Portfolio",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/portfolio?username=lisa91",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["portfolio"],
+          "query": [
+            {
+              "key": "username",
+              "value": "lisa91"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Price History for House",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/price-history?house_name=Te_Giac",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["price-history"],
+          "query": [
+            {
+              "key": "house_name",
+              "value": "Te_Giac"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Register Student",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"quangngo12\",\n  \"house\": \"Te_Giac\",\n  \"points_balance\": 0\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/register",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["register"]
+        }
+      }
+    },
+    {
+      "name": "Sell Stocks for House",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"lisa91\",\n  \"house_name\": \"Te_Giac\",\n  \"quantity\": 1\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/sell",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["sell"]
+        }
+      }
+    }
+  ]
+}

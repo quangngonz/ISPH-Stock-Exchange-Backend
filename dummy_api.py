@@ -1,5 +1,3 @@
-from pyexpat.errors import messages
-
 from flask import Flask, request, redirect
 from flask_restx import Api, Resource, fields
 import json, os
