@@ -134,7 +134,7 @@ By default, the application will be available at [http://127.0.0.1:5000](http://
 ### 5. `GET /portfolio`
 
 - **Description**: View a student’s current stock portfolio and points balance.
-- **Query Parameters**: `username`
+- **Query Parameters**: `username` (required)
 - **Response**:
   ```json
   {
@@ -176,9 +176,10 @@ By default, the application will be available at [http://127.0.0.1:5000](http://
   }
   ```
 
-### 8. `GET /price-history/<house_name>`
+### 8. `GET /price-history/{house_name}`
 
 - **Description**: View the price history for a specific house.
+- **Path Parameter**: `house_name` (required)
 - **Response**:
   ```json
   {
