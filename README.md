@@ -7,7 +7,6 @@ A backend application for a stock exchange simulation, created using Flask, Flas
 - [Installation](#installation)
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ## Installation
 
@@ -202,7 +201,3 @@ By default, the application will be available at [http://127.0.0.1:5000](http://
     ]
   }
   ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

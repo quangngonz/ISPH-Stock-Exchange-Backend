@@ -76,13 +76,13 @@ for day in range(14):
     adjust_stock_prices()
 
 # Save data to JSON files
-with open('users.json', 'w') as f:
+with open('data/users.json', 'w') as f:
     json.dump(users, f, indent=4)
 
-with open('portfolios.json', 'w') as f:
+with open('data/portfolios.json', 'w') as f:
     json.dump(portfolios, f, indent=4)
 
-with open('houses.json', 'w') as f:
+with open('data/houses.json', 'w') as f:
     json.dump(houses, f, indent=4)
 
 print("Data saved to JSON files.")

@@ -7,11 +7,11 @@ api = Api(app, doc='/docs')  # Enable Swagger UI at /docs
 
 # Load data from JSON files
 def load_data():
-    with open('users.json') as f:
+    with open('data/users.json') as f:
         users = json.load(f)
-    with open('portfolios.json') as f:
+    with open('data/portfolios.json') as f:
         portfolios = json.load(f)
-    with open('houses.json') as f:
+    with open('data/houses.json') as f:
         houses = json.load(f)
     return users, portfolios, houses
 
