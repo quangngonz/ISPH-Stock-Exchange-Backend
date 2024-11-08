@@ -1,0 +1,562 @@
+{
+    "lisa91": {
+        "Voi": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Ho": {
+            "shares": 2
+        }
+    },
+    "uparsons": {
+        "Rua_Bien": {
+            "shares": 1
+        },
+        "Ho": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 3
+        }
+    },
+    "lobrien": {
+        "Voi": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 7
+        }
+    },
+    "joseph94": {
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Ho": {
+            "shares": 1
+        }
+    },
+    "teresa45": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 5
+        },
+        "Te_Giac": {
+            "shares": 2
+        }
+    },
+    "joseph35": {
+        "Ho": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 4
+        }
+    },
+    "jessicabailey": {
+        "Te_Giac": {
+            "shares": 4
+        },
+        "Ho": {
+            "shares": 4
+        }
+    },
+    "amanda44": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 3
+        }
+    },
+    "lynn58": {
+        "Rua_Bien": {
+            "shares": 5
+        },
+        "Te_Giac": {
+            "shares": 2
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "crystal72": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 7
+        }
+    },
+    "browndiana": {
+        "Rua_Bien": {
+            "shares": 4
+        },
+        "Ho": {
+            "shares": 5
+        }
+    },
+    "crystal74": {
+        "Voi": {
+            "shares": 2
+        },
+        "Te_Giac": {
+            "shares": 5
+        },
+        "Rua_Bien": {
+            "shares": 2
+        }
+    },
+    "diane46": {
+        "Ho": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 4
+        },
+        "Rua_Bien": {
+            "shares": 2
+        },
+        "Te_Giac": {
+            "shares": 2
+        }
+    },
+    "dsloan": {
+        "Rua_Bien": {
+            "shares": 3
+        },
+        "Ho": {
+            "shares": 1
+        },
+        "Voi": {
+            "shares": 4
+        }
+    },
+    "dbest": {
+        "Ho": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 2
+        },
+        "Te_Giac": {
+            "shares": 5
+        }
+    },
+    "matthew29": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Ho": {
+            "shares": 8
+        }
+    },
+    "samantha26": {
+        "Rua_Bien": {
+            "shares": 4
+        },
+        "Te_Giac": {
+            "shares": 1
+        }
+    },
+    "mark10": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 5
+        },
+        "Ho": {
+            "shares": 2
+        }
+    },
+    "rodriguezjason": {
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Rua_Bien": {
+            "shares": 1
+        }
+    },
+    "omeyer": {
+        "Voi": {
+            "shares": 6
+        }
+    },
+    "wyatt65": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Ho": {
+            "shares": 2
+        },
+        "Voi": {
+            "shares": 1
+        }
+    },
+    "amy44": {
+        "Te_Giac": {
+            "shares": 7
+        },
+        "Voi": {
+            "shares": 1
+        },
+        "Ho": {
+            "shares": 1
+        }
+    },
+    "arnolderik": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 4
+        }
+    },
+    "itorres": {
+        "Rua_Bien": {
+            "shares": 2
+        },
+        "Voi": {
+            "shares": 3
+        }
+    },
+    "deanjames": {
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "fmunoz": {
+        "Ho": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 1
+        }
+    },
+    "lopezshelia": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 7
+        }
+    },
+    "carol91": {
+        "Ho": {
+            "shares": 0
+        }
+    },
+    "gcarter": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 10
+        }
+    },
+    "sheila75": {
+        "Rua_Bien": {
+            "shares": 3
+        },
+        "Ho": {
+            "shares": 0
+        }
+    },
+    "amberhensley": {
+        "Ho": {
+            "shares": 0
+        }
+    },
+    "jocelynvaughan": {
+        "Te_Giac": {
+            "shares": 4
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "bauerpatrick": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 7
+        }
+    },
+    "lauraharris": {
+        "Te_Giac": {
+            "shares": 0
+        },
+        "Ho": {
+            "shares": 7
+        }
+    },
+    "brianbuck": {
+        "Voi": {
+            "shares": 1
+        }
+    },
+    "psimpson": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "shellystewart": {
+        "Ho": {
+            "shares": 2
+        }
+    },
+    "yhuynh": {
+        "Ho": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 3
+        }
+    },
+    "aayers": {
+        "Ho": {
+            "shares": 3
+        }
+    },
+    "huangann": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 7
+        }
+    },
+    "brianpace": {
+        "Ho": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 0
+        }
+    },
+    "martinmarisa": {
+        "Ho": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 7
+        }
+    },
+    "staffordmatthew": {
+        "Voi": {
+            "shares": 1
+        },
+        "Rua_Bien": {
+            "shares": 4
+        },
+        "Ho": {
+            "shares": 1
+        },
+        "Te_Giac": {
+            "shares": 2
+        }
+    },
+    "phernandez": {
+        "Te_Giac": {
+            "shares": 1
+        }
+    },
+    "david26": {
+        "Ho": {
+            "shares": 3
+        }
+    },
+    "allenvicki": {
+        "Te_Giac": {
+            "shares": 2
+        }
+    },
+    "reginaldjimenez": {
+        "Voi": {
+            "shares": 5
+        },
+        "Ho": {
+            "shares": 1
+        }
+    },
+    "jose05": {
+        "Ho": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "markmack": {
+        "Voi": {
+            "shares": 5
+        }
+    },
+    "ssmith": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 1
+        }
+    },
+    "michaelmcdowell": {
+        "Ho": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 1
+        }
+    },
+    "kimberlyhorton": {
+        "Rua_Bien": {
+            "shares": 8
+        }
+    },
+    "evasquez": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Ho": {
+            "shares": 5
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "danielle89": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 1
+        }
+    },
+    "frederick76": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 3
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "douglas33": {
+        "Ho": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "anthony32": {
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "larry55": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Voi": {
+            "shares": 5
+        },
+        "Te_Giac": {
+            "shares": 2
+        }
+    },
+    "barryorozco": {
+        "Ho": {
+            "shares": 1
+        }
+    },
+    "gabrielle11": {
+        "Voi": {
+            "shares": 2
+        }
+    },
+    "jacksonjohn": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 8
+        }
+    },
+    "andrew50": {
+        "Te_Giac": {
+            "shares": 0
+        }
+    },
+    "zrodriguez": {
+        "Ho": {
+            "shares": 0
+        },
+        "Rua_Bien": {
+            "shares": 8
+        }
+    },
+    "lsilva": {
+        "Rua_Bien": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 6
+        }
+    },
+    "jessica94": {
+        "Ho": {
+            "shares": 0
+        },
+        "Te_Giac": {
+            "shares": 5
+        }
+    },
+    "david11": {
+        "Ho": {
+            "shares": 0
+        }
+    },
+    "shannonchaney": {
+        "Voi": {
+            "shares": 0
+        }
+    },
+    "brandyblackwell": {
+        "Rua_Bien": {
+            "shares": 1
+        }
+    },
+    "nicolesmith": {
+        "Te_Giac": {
+            "shares": 0
+        }
+    },
+    "jessicacastro": {
+        "Te_Giac": {
+            "shares": 6
+        }
+    }
+}
