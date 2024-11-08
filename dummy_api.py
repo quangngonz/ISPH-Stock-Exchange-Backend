@@ -65,6 +65,7 @@ class Sell(Resource):
 
 class Portfolio(Resource):
     @api.doc(description='View a student\'s current stock portfolio and points balance')
+    @api.param('username', 'The username of the student')
     def get(self):
         username = request.args.get('username')
         if username not in users:
@@ -85,6 +86,7 @@ class Leaderboard(Resource):
 
 class PriceHistory(Resource):
     @api.doc(description='Get the price history for a house stock')
+    @api.param('house_name', 'The name of the house to get the price history for')
     def get(self, house_name):
         if house_name not in houses:
             return {"message": "House not found"}, 404
