@@ -50,7 +50,15 @@ class Register(Resource):
 
 class Houses(Resource):
     @api.doc(description='Fetch the list of houses and current stock values')
+    @api.param('house_name', 'The name of the house to get the stock value for')
     def get(self):
+        house_name = api.payload.get('house_name', None)
+        if house_name:
+            house_data = houses.get(house_name)
+            if house_data:
+                return {house_name: house_data}, 200
+            else:
+                return {"message": "House not found"}, 404
         return {"houses": houses}, 200
 
 class Buy(Resource):
