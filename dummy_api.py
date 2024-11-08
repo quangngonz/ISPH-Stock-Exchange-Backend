@@ -106,10 +106,5 @@ api.add_resource(Leaderboard, '/leaderboard')
 api.add_resource(PriceHistory, '/price-history/<house_name>')
 api.add_resource(AllHouses, '/all-houses')
 
-# Lambda handler
-def handler(event, context):
-    with app.app_context():
-        return app(event, context)
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
