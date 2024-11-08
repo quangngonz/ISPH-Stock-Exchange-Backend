@@ -33,7 +33,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 After activating the virtual environment, install the required packages:
 
 ```bash
-pip install flask==2.1.3 werkzeug==2.0.3 flask-restful flask_restplus
+pip install flask==2.1.3 werkzeug==2.0.3 flask-restful flask-restx
 ```
 
 ### 4. Load the JSON Data
