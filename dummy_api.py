@@ -1,9 +1,14 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, redirect, url_for
 from flask_restx import Api, Resource, fields
 import json, os
 
 app = Flask(__name__)
 api = Api(app, doc='/docs')  # Enable Swagger UI at /docs
+
+# Redirect root (/) to /docs
+@app.route('/')
+def redirect_to_docs():
+    return redirect(url_for('api.doc'))  # Redirect to the docs URL
 
 # Load data from JSON files in the 'data' folder
 def load_data():
@@ -105,7 +110,12 @@ class AllHouses(Resource):
     def get(self):
         return {"houses": houses}, 200
 
+class HelloWorld(Resource):
+    def get(self):
+        return {'message': 'Hello, World!'}
+
 # API Resource Routing
+api.add_resource(HelloWorld, '/')
 api.add_resource(Register, '/register')
 api.add_resource(Houses, '/houses')
 api.add_resource(Buy, '/buy')
