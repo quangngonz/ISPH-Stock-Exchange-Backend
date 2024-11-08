@@ -32,7 +32,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 After activating the virtual environment, install the required packages:
 
 ```bash
-pip install flask==2.1.3 werkzeug==2.0.3 flask-restful flask-restx
+pip install -r requirements.txt
 ```
 
 ### 4. Load the JSON Data
@@ -56,7 +56,7 @@ The Flask app is ready to run once the dependencies are installed. The main scri
 Start the Flask development server:
 
 ```bash
-python dummy.py
+python dummy_api.py
 ```
 
 By default, the application will be available at [http://127.0.0.1:5000](http://127.0.0.1:5000).
