@@ -89,7 +89,7 @@ class EarnPoints(Resource):
     @api.doc(description='Update student points based on good performance')
     @api.param('username', 'The username of the student')
     @api.param('points', 'The number of points to add')
-    @api.param('code', 'The secret code to verify the request')
+    @api.param('code', 'The secret code to verify the request (default: "secret")')
     def post(self):
         username = request.args.get('username')
         points = request.args.get('points')
