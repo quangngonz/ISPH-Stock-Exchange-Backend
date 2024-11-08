@@ -1,0 +1,6 @@
+Faker
+Flask
+werkzeug
+flask-restful
+flask-restx
+gunicorn

@@ -1,18 +1,22 @@
 from flask import Flask, jsonify, request
 from flask_restx import Api, Resource, fields
-import json
+import json, os
 
 app = Flask(__name__)
 api = Api(app, doc='/docs')  # Enable Swagger UI at /docs
 
-# Load data from JSON files
+# Load data from JSON files in the 'data' folder
 def load_data():
-    with open('data/users.json') as f:
+    base_dir = os.path.dirname(__file__)  # Get the current directory of the script
+    data_dir = os.path.join(base_dir, 'data')  # Path to 'data' folder
+    
+    with open(os.path.join(data_dir, 'users.json')) as f:
         users = json.load(f)
-    with open('data/portfolios.json') as f:
+    with open(os.path.join(data_dir, 'portfolios.json')) as f:
         portfolios = json.load(f)
-    with open('data/houses.json') as f:
+    with open(os.path.join(data_dir, 'houses.json')) as f:
         houses = json.load(f)
+    
     return users, portfolios, houses
 
 users, portfolios, houses = load_data()
@@ -102,5 +106,10 @@ api.add_resource(Leaderboard, '/leaderboard')
 api.add_resource(PriceHistory, '/price-history/<house_name>')
 api.add_resource(AllHouses, '/all-houses')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# Lambda handler
+def handler(event, context):
+    with app.app_context():
+        return app(event, context)
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
