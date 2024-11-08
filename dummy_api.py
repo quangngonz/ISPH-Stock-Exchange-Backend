@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, redirect, url_for
+from flask import Flask, request, redirect
 from flask_restx import Api, Resource, fields
 import json, os
 
@@ -16,13 +16,13 @@ def load_data():
     data_dir = os.path.join(base_dir, 'data')  # Path to 'data' folder
     
     with open(os.path.join(data_dir, 'users.json')) as f:
-        users = json.load(f)
+        users_json = json.load(f)
     with open(os.path.join(data_dir, 'portfolios.json')) as f:
-        portfolios = json.load(f)
+        portfolios_json = json.load(f)
     with open(os.path.join(data_dir, 'houses.json')) as f:
-        houses = json.load(f)
+        houses_json = json.load(f)
     
-    return users, portfolios, houses
+    return users_json, portfolios_json, houses_json
 
 users, portfolios, houses = load_data()
 
@@ -101,7 +101,7 @@ class EarnPoints(Resource):
         users[username]["points_balance"] += int(points)
 
         with open('data/users.json', 'w') as f:
-            json.dump(users, f, indent=4)
+            f.write(json.dumps(users, indent=4))
 
         return {"message": f"{points} points added to {username}"}, 200
 
