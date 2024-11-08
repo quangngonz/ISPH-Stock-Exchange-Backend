@@ -75,7 +75,7 @@ buy_model = api.model('BuyModel', {
 earn_points_model = api.model('EarnPointsModel', {
     'username': fields.String(required=True, description='The username of the student'),
     'points': fields.Integer(required=True, description='The number of points to add'),
-    'code': fields.String(default="secret", description='The secret code to verify the request (default: "secret")')
+    'code': fields.String(required=True, description='The secret code to verify the request (default: "secret")')
 })
 
 # Resource classes
