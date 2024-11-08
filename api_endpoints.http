@@ -1,0 +1,65 @@
+### Get All Houses Data
+GET http://localhost:5000/all-houses
+
+### Buy Stocks for House Te_Giac
+POST http://localhost:5000/buy
+Content-Type: application/json
+
+{
+  "username": "lisa91",
+  "house_name": "Te_Giac",
+    "quantity": 1
+
+}
+
+### Earn Points for Student Joseph94
+POST http://localhost:5000/earn-points
+Content-Type: application/json
+
+{
+    "code": "secret",
+    "points": 10,
+    "username": "joseph94"
+}
+
+### Get name of all Houses
+GET http://localhost:5000/houses
+
+### Get Leaderboard Data
+GET http://localhost:5000/leaderboard
+
+### Get Student Portfolio
+GET http://localhost:5000/portfolio
+Content-Type: application/json
+
+{
+  "username": "lisa91"
+}
+
+### Get Price History for House
+GET http://localhost:5000/price-history
+Content-Type: application/json
+
+{
+  "house_name": "Te_Giac"
+}
+
+### Register Student
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "username": "quangngo12",
+  "house": "Te_Giac",
+  "points_balance": 0
+}
+
+### Sell Stocks for House
+POST http://localhost:5000/sell
+Content-Type: application/json
+
+{
+  "username": "lisa91",
+  "house_name": "Te_Giac",
+  "quantity": 1
+}

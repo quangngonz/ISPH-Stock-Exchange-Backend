@@ -13,7 +13,7 @@
     },
     "joseph94": {
         "house": "Te_Giac",
-        "points_balance": 599.9000000000001
+        "points_balance": 639.9000000000001
     },
     "teresa45": {
         "house": "Rua_Bien",
@@ -278,5 +278,13 @@
     "jessicacastro": {
         "house": "Te_Giac",
         "points_balance": 439.53999999999996
+    },
+    "QuangNgo": {
+        "house": "Rua_Bien",
+        "points_balance": 1000
+    },
+    "quangngo12": {
+        "house": "Te_Giac",
+        "points_balance": 0
     }
 }
